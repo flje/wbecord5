@@ -1,0 +1,60 @@
+/**
+ * @name wbe
+ * @description the cat thing
+ * @version 0.2.7
+ * @author wwbe
+ * @authorId 733708226608103486
+*/
+
+/* theme */
+@import url(https://pastebin.com/raw/g4YWvke0);
+
+/* icon revert davart154 */
+@import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
+
+
+:root {
+
+    --Main_Background: url(https://i.ibb.co/wNcWH0s/asd.jpg);
+    --Main_Brightness: 80 ;
+    --Main_Background_blur: 0 ;
+    
+    --Server_Background: url(https://i.ibb.co/vB4YRRG/image-2024-01-12-102744073.png);
+    --Server_Brightness: 100 ;
+    --Server_Background_blur: 0 ;
+  
+    --show-nitro-btn: 0 ;
+    --show-gif-btn: 1 ;
+    --show-sticker-btn: 0 ;
+    --show-emoji-btn: 1 ;
+
+    --show-home-tabs: 1 ; 
+    --show-serverboost-stats: 1 ; 
+
+    --always-show-voicecontrols: 0 ; 
+
+    --Font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
+
+.wordmark_a934d8.wordmarkWindows_a934d8 {
+  width: auto;
+  height: var(--window-title-bar);
+  padding: 0 0 0 4px;
+  line-height: var(--window-title-bar);
+  font-size: 1.2em;
+  color: var(--text-normal);
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:before, .wordmark_a934d8.wordmarkWindows_a934d8:after {
+  position: relative;
+  width: auto;
+  height: 21px;
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:before {
+  content: "wbe";
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:after {
+  content: "";
+}
+.wordmark_a934d8.wordmarkWindows_a934d8 svg {
+  display: none;
+}
